@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  textarea::-webkit-scrollbar {
+    width: 12px;
+    background-color: whitesmoke; 
+  }
+  
+  textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: darkgray; 
+  }
+  
+  p {
+    color: white;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-family:Arial, sans-serif;
+    line-height:1em;
+    color:#9d4edd;
+    font-weight:bold;
+    text-shadow:0px 0px 0 rgb(139,60,203),1px 1px 0 rgb(131,52,195),2px 2px 0 rgb(123,44,187),3px 3px 0 rgb(115,36,179),4px 4px 0 rgb(107,28,171),5px 5px 0 rgb(100,21,164),6px 6px 0 rgb(92,13,156),7px 7px 0 rgb(84,5,148),8px 8px 0 rgb(76,-3,140),9px 9px 0 rgb(68,-11,132),10px 10px 0 rgb(60,-19,124), 11px 11px 0 rgb(52,-27,116),12px 12px 11px rgba(0,0,0,0.6),12px 12px 1px rgba(0,0,0,0.5),0px 0px 11px rgba(0,0,0,.2);
+  }
+  
+  .speech{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #240046, #7b2cbf)
+  }
+  
+  #textarea {
+    width: 80%;
+    height: 40%;
+    margin: 50px auto;
+    padding: 1rem;
+    border: none;
+    outline: 0;
+    text-align: justify;
+    border-radius: 15px;
+    box-shadow: 5px 5px 33px 5px #000000;
+    font-size: 1rem;
+  }
+  
+  .fas {
+    font-weight: 600;
+    font-size: 3rem;
+    color: black;
+    min-width: 4rem;
+  }
+  
+  button { 
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 5px 5px 50px 5px #360044;
+  }
+  
+  .fa-trash-alt{
+    color: red;
+  }
+  
+  @media(max-width: 700px) {
+    p {
+      font-size: 2rem;
+    }
+    
+    .fas {
+      min-width: 3rem;
+    }
+  }
+
